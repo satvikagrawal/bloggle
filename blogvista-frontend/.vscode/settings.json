@@ -1,0 +1,7 @@
+{
+    "docify.translateService.docstringFormat": "Doxygen",
+    "docify.translateService.programmingLanguage": "auto-detect",
+    "docify.commentService.inlineComments": false,
+    "appService.defaultWebAppToDeploy": "/subscriptions/a772a8e1-3bfc-4ab2-ada6-2b4ef984deb2/resourceGroups/appsvc_linux_centralus/providers/Microsoft.Web/sites/bloggle-vista",
+    "appService.deploySubpath": "."
+}

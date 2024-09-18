@@ -1,0 +1,206 @@
+.blog {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    margin: 20px;
+  }
+  
+  .single-blog-card {
+    width: 100%;
+    margin: 20px;
+    padding: 15px;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  }
+  
+  .single-blog-title h1 {
+    font-size: 1.5rem;
+    margin-bottom: 10px;
+  }
+  
+  .single-creator-profile {
+    display: flex;
+    align-items: center;
+    margin-bottom: 10px;
+  }
+  
+  .single-creator-profile img {
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    margin-right: 10px;
+  }
+  
+  .single-blog-image img {
+    width: 100%;
+    height: auto;
+    border-radius: 5px;
+    margin-bottom: 10px;
+  }
+  
+  .datetime {
+    display: flex;
+    justify-content: space-between;
+    font-size: 0.8rem;
+    color: #555;
+  }
+  
+  .single-blog-para-para p {
+    font-size: 1rem;
+    line-height: 1.4;
+  }
+  
+  /* Add more styles as needed */
+  .comments,
+.likes {
+  margin-top: 10px;
+  font-size: 0.9rem;
+  color: #888;
+}
+/* ... (previous CSS code) ... */
+
+/* ... (previous CSS code) ... */
+
+/* ... (previous CSS code) ... */
+
+.actions {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin-top: 10px;
+    /* justify-content: center; */
+    gap: 2em;
+  }
+  
+  .like-button,
+  .comment-button {
+    background-color: transparent;
+    border: none;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    margin-bottom: 5px;
+    transition: opacity 0.3s ease;
+    gap: 1.2em;
+  }
+  
+  .like-button:hover,
+  .comment-button:hover {
+    opacity: 0.7;
+  }
+  
+  /* ... (rest of your CSS) ... */
+  .comment-section {
+    width: 100%;
+    max-width: 100%;
+    margin: 0 auto;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    margin-top: 20px;
+  }
+  
+  .comment-section-form {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .comment-section-form-input {
+    margin-bottom: 10px;
+  }
+  
+  .comment-section-form textarea {
+    width: 100%;
+    padding: 10px;
+    font-size: 14px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    resize: vertical;
+  }
+  
+  .comment-section-form-button button {
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  .comment-section-form-button button:hover {
+    background-color: #0056b3;
+  }
+  .comment-section-comments {
+  display: flex;
+  margin-bottom: 20px;
+  flex-direction: column;
+  margin-top: 20px;
+  gap: 1em;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  padding: 20px;
+  /* align-items: center; */
+  justify-content: center;
+}
+
+.comment-section-comment-user {
+  display: flex;
+  align-items: center;
+  margin-right: 10px;
+  justify-content: space-between;
+}
+
+.comment-section-comment-user-profile img {
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  object-fit: cover;
+}
+
+.comment-section-comment-user-info h3 {
+  margin: 0;
+  font-size: 16px;
+}
+
+.comment-section-comment p {
+  margin: 0;
+  font-size: 14px;
+  line-height: 1.5;
+}
+.comment-section-comments {
+  display: flex;
+  margin-bottom: 20px;
+}
+
+.comment-section-comment-user-profile img {
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  object-fit: cover;
+  margin-right: 10px;
+}
+
+.comment-section-comment-user-info h3 {
+  margin: 0;
+  font-size: 18px;
+  font-weight: bold;
+}
+
+.comment-section-comment p {
+  margin: 0;
+  font-size: 16px;
+  line-height: 1.4;
+}
+.comment-section-comment-user-profile{
+  display: flex;
+  align-items: center;
+}
+.delete-update-comment{
+  display: flex;
+  gap: 2em;
+}

@@ -1,0 +1,41 @@
+
+.userinfo {
+    margin: 20px;
+    padding: 20px;
+    background-color: #f7f7f7;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  }
+  
+  /* CSS for welcoming-user div */
+ 
+  .blogs button {
+    background-color: #4caf50;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    margin-top: 10px;
+    cursor: pointer;
+    border-radius: 5px;
+  }
+  
+  /* CSS for recent-blog container */
+  .recent-blog {
+    margin-top: 20px;
+  }
+  
+  /* CSS for blog card */
+ 
+  /* CSS for datetime container */
+  .datetime {
+    display: flex;
+    justify-content: space-between;
+  }
+  
+  /* CSS for dated and timesago spans */
+  .dated,
+  .timesago {
+    font-size: 14px;
+    color: #888;
+  }
+  

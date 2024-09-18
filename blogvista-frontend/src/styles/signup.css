@@ -1,0 +1,118 @@
+.signup-page{
+    display: flex;
+    flex-direction: column;
+    gap: 2em;
+    justify-content: center;
+    align-items: center;
+    margin-top: 10px;
+}
+.signup-page-heading{
+    display: flex;
+    flex-direction: column;
+    gap: .3em;
+    align-items: center;
+}
+.signup-form{
+    display: flex;
+    flex-direction: column;
+    gap: 1em;
+    align-items: center;
+    width: 100%;
+}
+.signup-form-input input{
+    display: flex;
+    padding: 10px;
+    width: 100%;
+    border: 2px solid #545F71;
+    border-radius: 5px;
+    height: 6vh;
+    color: #545F71;
+}
+.signup-form-input p{
+    color: #545F71;
+}
+.signup-page-heading p a{
+    color: #545F71;
+    font-weight: bolder;
+    text-decoration: underline;
+}
+.signup-form-input{
+    width: 80%;
+}
+.signup-form-input p{
+    font-size: 12px;
+}
+.button-class button{
+   width: 80%;
+   height: 5vh;
+   background-color: #9BA5B7;
+   border: 0;
+   color: white;
+   border-radius: 5px;
+   cursor: pointer;
+   font-weight: bold;
+
+}
+.button-class{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+@media screen and (min-width:580px)and (max-width:750){
+
+    .signup-form-input{
+        width: 80%;
+    }
+    .button-class{
+        width: 80%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    
+}
+@media screen and (min-width:751px)and (max-width:1000px){
+    .signup-form-input{
+        width: 50%;
+    }
+    .button-class{
+        width: 50%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+}
+@media screen and (min-width:1001px)and (max-width:1250px){
+    .signup-form-input{
+        width: 40%;
+    }
+    .button-class{
+        width: 40%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+}
+@media screen and (min-width:1251px)and (max-width:1450px){
+    .signup-form-input{
+        width: 30%;
+    }
+    .button-class{
+        width: 30%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+}
+@media screen and (min-width:1450px){
+    .signup-form-input{
+        width: 20%;
+    }
+    .button-class{
+        width: 20%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+}

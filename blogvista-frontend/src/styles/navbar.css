@@ -1,0 +1,26 @@
+.navbar{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    /* background-color: black;
+    color: white; */
+    height: 10vh;
+    box-shadow: rgba(0, 0, 0, 0.15) 1.95px 1.95px 2.6px;
+    width: 100%;
+}
+.navbar-logo a{
+    text-decoration: none;
+    color: black;
+}
+.navlinks{
+    list-style: none;
+    display: flex;
+    gap: 2em;
+
+}
+.navlinks a{
+    text-decoration: none;
+    color: black;
+    font-weight: 700;
+    letter-spacing: 1px;
+}

@@ -1,0 +1,82 @@
+.create-blog-section {
+    max-width: 600px;
+    margin: 0 auto;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    background-color: #f9f9f9;
+    margin-top: 20px;
+  }
+  
+  .create-blog-heading h1 {
+    font-size: 24px;
+    margin-bottom: 20px;
+    text-align: center;
+    color: #333;
+  }
+  
+  .create-blog-input {
+    margin-bottom: 15px;
+  }
+  
+  .create-blog-input-text p {
+    font-size: 18px;
+    font-weight: bold;
+    margin-bottom: 5px;
+    color: #555;
+  }
+  
+  .create-blog-input-input input[type="text"],
+  .create-blog-input-input textarea,
+  .create-blog-input-input input[type="file"] {
+    width: 100%;
+    padding: 10px;
+    font-size: 16px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-sizing: border-box;
+  }
+  
+  .create-blog-input-input textarea {
+    resize: vertical;
+  }
+  
+  .create-blog-input-input input[type="file"] {
+    border: none;
+    background-color: #f9f9f9;
+  }
+  
+  .create-blog-input-input input[type="file"]::-webkit-file-upload-button {
+    background-color: #4caf50;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  .create-blog-input-input input[type="file"]::-webkit-file-upload-button:hover {
+    background-color: #45a049;
+  }
+  
+
+  .create-blog-button button {
+    background-color: #4caf50;
+    color: white;
+    border: none;
+    padding: 12px 20px;
+    border-radius: 5px;
+    font-size: 16px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+   
+  }
+  
+  .create-blog-button button:hover {
+    background-color: #45a049;
+  }
+  .create-blog-button{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
