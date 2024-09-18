@@ -23,7 +23,7 @@ Welcome to BlogVista Backend, the robust and efficient server-side component of 
 - Fork or clone this repository: Clone this repository on your local machine using this command :
 
 ```bash
-  git clone https://github.com/codemaniac-sahil/blogvista-backend.git
+  git clone https://github.com/satvikagrawal/blogvista-backend.git
 
 ```
 - Install Dependencies: Navigate to the project directory and install the dependencies by running npm install.
